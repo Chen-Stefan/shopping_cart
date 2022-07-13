@@ -3,7 +3,13 @@ import { Container } from 'react-bootstrap'
 
 function App() {
   return (
-    <Container>Hi</Container>
+    <Container>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/store' element={<Store />} />
+        <Route path='/about' element={<About />} />
+      </Routes>
+    </Container>
   );
 }
 
