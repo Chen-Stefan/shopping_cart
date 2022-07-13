@@ -1,9 +1,9 @@
-import React from 'react';
-import './App.css';
+import { Routes, Route} from 'react-router-dom'
+import { Container } from 'react-bootstrap'
 
 function App() {
   return (
-    <h1>Hi</h1>
+    <Container>Hi</Container>
   );
 }
 
