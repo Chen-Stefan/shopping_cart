@@ -16,7 +16,7 @@ export function Navbar() {
             About
           </Nav.Link>
         </Nav>
-        <Button style={{width: '3rem', height: '3rem'}}>
+        <Button style={{width: '3rem', height: '3rem', position: 'relative'}} variant='outline-primary' className="rounded-circle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 576 512"
