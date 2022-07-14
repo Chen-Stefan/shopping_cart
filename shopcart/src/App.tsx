@@ -6,6 +6,7 @@ import { About } from './pages/About';
 import { Navbar} from './components/Navbar'
 import { ShoppingCartProvider } from './context/ShoppingCartContext';
 
+// 用shopping cart provider包裹整个component，这样整个app都能访问到shopping cart provider
 function App() {
   return (
     <ShoppingCartProvider>
